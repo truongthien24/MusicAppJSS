@@ -1,0 +1,11 @@
+.music__item {
+
+    &:hover > .overlayMusic{
+        display: block;
+    }
+
+    .overlayMusic {
+        display: none;
+        cursor: pointer;
+    }
+}

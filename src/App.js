@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import DemoJSS from './JSS__StyledComponent/DemoJSS/DemoJSS';
+import DemoTheme from './JSS__StyledComponent/DemoTheme/DemoTheme';
+import ToDoList from './JSS__StyledComponent/BaiTapStyledComponent/ToDoList';
+import AppMusic from './JSS__StyledComponent/BaiTapStyledComponent/AppMusic';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DemoJSS/> */}
+      {/* <DemoTheme/> */}
+      {/* <ToDoList/> */}
+      <AppMusic/>
     </div>
   );
 }

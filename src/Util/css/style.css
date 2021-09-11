@@ -1,0 +1,9 @@
+.music__item:hover > .overlayMusic {
+  display: block;
+}
+
+.music__item .overlayMusic {
+  display: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
